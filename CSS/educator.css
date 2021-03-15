@@ -1,0 +1,33 @@
+#educator {
+  background-color: rgb(66, 66, 66);
+  background-size: cover;
+  max-width: 100%;
+  height: calc(100vh - 15vh);
+  max-height: 100vh;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.7em;
+}
+#educator h1 {
+  padding-top: 5%;
+}
+#educator h3 {
+  padding-left: 5%;
+}
+.educatorWrapper {
+  overflow: scroll;
+}
+.edImage {
+  width: 90%;
+  height: 45%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.certImage {
+  width: 90%;
+  height: 67.5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}

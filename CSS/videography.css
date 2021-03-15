@@ -1,0 +1,44 @@
+#videography {
+  background-color: rgb(66, 66, 66);
+  max-width: 100%;
+  height: calc(100vh - 15vh);
+  max-height: 100vh;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#videography > h1 {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 10px;
+}
+.videographyWrapper {
+  width: 90%;
+  display: grid;
+  text-align: justify;
+  overflow: scroll;
+  grid-gap: 10px;
+}
+.content {
+  display: grid;
+  max-width: 100%;
+  overflow: hidden;
+}
+iframe {
+  border: 2px solid rgb(33, 33, 33);
+  width: 100%;
+}
+.discription {
+  background-color: rgb(33, 33, 33, 0.7);
+  border: 2px solid rgb(33, 33, 33);
+  height: 50px;
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 0.8em;
+  overflow: scroll;
+}
+#animationSocial {
+  padding: 10px;
+}

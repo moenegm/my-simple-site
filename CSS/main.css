@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*---------BODY & BACKGROUND-----------*/
+body {
+  font-family: "Merienda";
+  color: rgb(200, 150, 15);
+  font-size: 0.8em;
+  width: 100%;
+  height: 100vh;
+}
+footer {
+  height: 5vh;
+  background-color: rgb(33, 33, 33);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+/*---------HEADING & MAIN SCREEN STUFF-----------*/
+#home {
+  background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+    url("/Images/Iphonexbackground.jpg");
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 20vh);
+  padding-top: 15vh;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+.largeHeading {
+  padding-bottom: 2vh;
+}
+.smallHeading {
+  padding-bottom: 50vh;
+}
+.moe {
+  color: white;
+}
+.social a {
+  color: rgb(200, 150, 15);
+}
+.social a:hover {
+  color: white;
+  transition: all 0.5s ease-out;
+}
+/*------------------ROTATING MENU BUTTON----------------------*/
+.menuButton {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+.buttonLine {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 0 0 5px 0;
+  transition: all 0.5s ease-out;
+}
+.close > .buttonLine:nth-child(1) {
+  transform: rotate(405deg) translate(5px, 5px);
+}
+.close > .buttonLine:nth-child(2) {
+  opacity: 0;
+}
+.close > .buttonLine:nth-child(3) {
+  transform: rotate(-405deg) translate(5px, -5px);
+}
+/*------------------------------FULL MENU----------------------------*/
+.menu {
+  width: 100vh;
+}
+/*Menu is closed by default*/
+.menuWrapper {
+  position: fixed;
+  top: 0;
+}
+.show > .menuWrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*----------------------PORTRAIT MENU-----------------------*/
+/*handles image*/
+.myPortrait {
+  transform: translate3d(-100%, 0, 0);
+}
+.show > .portrait {
+  width: 150px;
+  height: 150px;
+  background-image: url("/Images/Portrait.jpg");
+  background-size: cover;
+  border: 3px solid rgb(200, 150, 15);
+  border-radius: 50%;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+}
+.show > .myPortrait {
+  visibility: visible;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  float: none;
+  width: 100%;
+  height: 35vh;
+  overflow: hidden;
+  background-color: rgb(33, 33, 33);
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+}
+/*----------------------LINK MENU-----------------------*/
+.navLink {
+  color: rgb(200, 150, 15);
+  text-decoration: none;
+}
+.current > a {
+  color: white;
+  font-size: 1.5em;
+}
+.navItem a:hover {
+  color: white;
+  font-size: 1.5em;
+}
+.menuItems {
+  visibility: hidden;
+  transform: translate3d(100%, 0, 0);
+}
+.navItem {
+  transform: translate3d(600px, 0, 0);
+}
+/*handles menue items*/
+.show > .menuItems {
+  visibility: visible;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  float: none;
+  width: 100%;
+  height: 65vh;
+  overflow: hidden;
+  background-color: rgb(33, 33, 33);
+  list-style: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+}
+/*Delays each individual link movments
+coming from the right side*/
+.show > .navItem:nth-child(1) {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.1s;
+  color: brown;
+}
+.show > .navItem:nth-child(2) {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.2s;
+  color: brown;
+}
+.show > .navItem:nth-child(3) {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.3s;
+  color: brown;
+}
+.show > .navItem:nth-child(4) {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.4s;
+  color: brown;
+}
+.show > .navItem:nth-child(5) {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.5s;
+  color: brown;
+}
+.show > .navItem:nth-child(6) {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.6s;
+  color: brown;
+}
+.show > .navItem:nth-child(7) {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.7s;
+  color: brown;
+}
+.show > .navItem:nth-child(8) {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.8s;
+  color: brown;
+}
+.none {
+  display: none;
+}

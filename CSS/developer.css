@@ -1,0 +1,67 @@
+#developer {
+  background: linear-gradient(rgba(33, 33, 33, 0.95), rgba(33, 33, 33, 0.95)),
+    url("/Images/defaultDev.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: calc(100vh - 15vh);
+  max-height: 100vh;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#developer > h1 {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 10px;
+}
+.devWork {
+  width: 90%;
+  display: grid;
+  text-align: justify;
+  overflow: scroll;
+  grid-gap: 10px;
+}
+.devSocial {
+  padding: 10px;
+}
+.job {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+.jobImg {
+  grid-column: 1/3;
+  height: 200px;
+}
+.jobButtons {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.gitButton {
+  background-color: black;
+  color: silver;
+}
+.eyeButton {
+  background-color: silver;
+  color: black;
+}
+.calc > .jobImg {
+  background: url("/Images/calc.png");
+  background-size: cover;
+}
+.sketch > .jobImg {
+  background: url("/Images/sketch.png");
+  background-size: cover;
+}
+.google > .jobImg {
+  background: url("/Images/google.png");
+  background-size: cover;
+}
+.portfolio > .jobImg {
+  background: url("/Images/portfolio.png");
+  background-size: cover;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merienda"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <title>My Work-Mohamed Negm</title>
+  </head>
+  <body id="backgroundImage">
+    <header>
+      <div class="menuButton">
+        <div class="buttonLine"></div>
+        <div class="buttonLine"></div>
+        <div class="buttonLine"></div>
+      </div>
+      <nav class="menu">
+        <div class="menuWrapper">
+          <div class="myPortrait"><div class="portrait"></div></div>
+          <ul class="menuItems">
+            <li class="navItem"><a href="/" class="navLink">HOME </a></li>
+            <li class="navItem">
+              <a href="about.html" class="navLink">ABOUT ME </a>
+            </li>
+            <li class="navItem current">
+              <a href="myWork.html" class="navLink">MY WORK </a>
+            </li>
+            <li class="navItem">
+              <a href="contact.html" class="navLink">CONTACT </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="myWork">
+      <h1 class="workHeading">My Work</h1>
+      <div class="myWorkNav">
+        <div class="education">
+          <button class="workButton">Educator</button>
+        </div>
+        <div class="dev"><button class="workButton">Developer</button></div>
+        <div class="photography">
+          <button class="workButton">Photographer</button>
+        </div>
+        <div class="videography">
+          <button class="workButton">Videographer</button>
+        </div>
+        <div class="educationButton currentButton"></div>
+        <div class="devButton currentButton"></div>
+        <div class="photographyButton currentButton"></div>
+        <div class="videographyButton currentButton"></div>
+        <div class="defaultWork">
+          <div class="defaultEducation defaultGrid">
+            <div class="defaultImg"></div>
+            <div class="defaultText">Education Work</div>
+          </div>
+          <div class="defaultDev defaultGrid">
+            <div class="defaultImg"></div>
+            <div class="defaultText">Dev Work</div>
+          </div>
+          <div class="defaultPhotography defaultGrid">
+            <div class="defaultImg"></div>
+            <div class="defaultText">Photography Work</div>
+          </div>
+          <div class="defaultVideography defaultGrid">
+            <div class="defaultImg"></div>
+            <div class="defaultText">Videography Work</div>
+          </div>
+        </div>
+        <div class="educationWork">I'm Education Work</div>
+        <div class="devWork">
+          <div class="calc job">
+            <div class="jobImg"></div>
+            <a
+              href="https://moenegm.github.io/calculator/"
+              class="eyeButton jobButtons"
+              ><i class="fa fa-eye"></i> Browser</a
+            >
+            <a
+              href="https://github.com/moenegm/calculator"
+              class="gitButton jobButtons"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+          </div>
+          <div class="sketch job">
+            <div class="jobImg"></div>
+            <a
+              href="https://moenegm.github.io/sketch/"
+              class="eyeButton jobButtons"
+              ><i class="fas fa-eye"></i> Browser</a
+            >
+            <a
+              href="https://github.com/moenegm/sketch"
+              class="gitButton jobButtons"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+          </div>
+          <div class="google job">
+            <div class="jobImg"></div>
+            <a
+              href="https://moenegm.github.io/Google/"
+              class="eyeButton jobButtons"
+              ><i class="fas fa-eye"></i> Browser</a
+            >
+            <a
+              href="https://github.com/moenegm/Google"
+              class="gitButton jobButtons"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+          </div>
+          <div class="portfolio job">
+            <div class="jobImg"></div>
+            <a
+              href="https://moenegm.github.io/portfolio/"
+              class="eyeButton jobButtons"
+              ><i class="fas fa-eye"></i> Browser</a
+            >
+            <a
+              href="https://github.com/moenegm/portfolio"
+              class="gitButton jobButtons"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+          </div>
+        </div>
+        <div class="photographyWork">
+          <div class="scrollmenu">
+            <button class="animal">Animal</button>
+            <button class="archetecture">Archetecture</button>
+            <button class="bugs">Bugs</button>
+
+            <a href="#cityScapes">City Scapes</a> <a href="#event">Events</a>
+            <a href="#liveShows">Live Shows</a>
+            <a href="#LongExposure">Long Exposure</a>
+            <a href="#landscape">Landscape</a> <a href="#macro">Macro</a>
+            <a href="#night">Night</a> <a href="#objects">Objects</a>
+            <a href="#plants">Plants</a> <a href="#portraits">Portraits</a>
+            <a href="#skyScapes">Sky Scapes</a> <a href="#street">Street</a>
+            <a href="#waterscape">Water Scape</a> <a href="#travel">Travel</a>
+          </div>
+          <div class="animalGallery">
+            <img
+              class="mySlides"
+              src="/Images/Animal-1.jpg"
+              alt=""
+              width="100%"
+            />
+            <img
+              class="mySlides"
+              src="/Images/Animal-2.jpg"
+              alt=""
+              width="100%"
+            />
+            <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+          <div class="architectureGallery">
+            <img
+              class="mySlides"
+              src="/Images/Architecture-1.jpg"
+              alt=""
+              width="100%"
+            />
+            <img
+              class="mySlides"
+              src="/Images/Architecture-2.jpg"
+              alt=""
+              width="100%"
+            />
+            <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+          <div class="bugGallery">
+            <img
+              class="mySlides"
+              src="/Images/Bugs-1.jpg"
+              alt=""
+              width="100%"
+            />
+            <img
+              class="mySlides"
+              src="/Images/Bugs-2.jpg"
+              alt=""
+              width="100%"
+            />
+            <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+        <div class="videographyWork">I'm Videography Work</div>
+      </div>
+      <div class="social workSocial">
+        <a
+          href="https://www.linkedin.com/in/mohamed-negm-332299127/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin fa-2x"></i
+        ></a>
+        <a href="https://github.com/moenegm" target="_blank">
+          <i class="fab fa-github fa-2x"></i
+        ></a>
+        <a href="https://www.instagram.com/moe_negm/" target="_blank">
+          <i class="fab fa-instagram fa-2x"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCKZpp79IKpBMoG1C2Ufrmgw?view_as=subscriber"
+          target="_blank"
+        >
+          <i class="fab fa-youtube fa-2x"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/Moeanegm?ref=bookmarks"
+          target="_blank"
+        >
+          <i class="fab fa-facebook fa-2x"></i
+        ></a>
+      </div>
+    </main>
+
+    <footer>&copy; 2019 Mohamed A. Negm</footer>
+    <script src="/main.js"></script>
+  </body>
+</html>

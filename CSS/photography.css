@@ -1,0 +1,97 @@
+#photography {
+  background-color: rgb(66, 66, 66);
+  background-size: cover;
+  max-width: 100%;
+  height: calc(100vh - 15vh);
+  max-height: 100vh;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.7em;
+}
+.photoHeading {
+  text-decoration: none;
+  color: rgb(200, 150, 15);
+  padding-bottom: 10px;
+}
+.photoWork {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  overflow: scroll;
+}
+.photoWork a {
+  text-decoration: none;
+}
+.gallary {
+  background-color: rgb(33, 33, 33);
+  color: silver;
+  text-align: center;
+  cursor: pointer;
+}
+.gallary img {
+  max-width: 100%;
+}
+.gallaryDiscription {
+  padding: 2px;
+}
+.gallary:hover {
+  opacity: 0.5;
+  transform: scale(1.015);
+}
+.photoSocial {
+  padding: 10px;
+}
+.photoContainer {
+  width: 90%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.slide {
+  max-width: 98%;
+  border: 2px solid white;
+}
+.photoContainer h3 {
+  color: white;
+  padding-top: 5px;
+}
+.show > .photoContainer > .arrow {
+  display: none;
+}
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: 0px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.leftArrow {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent rgba(255, 255, 255, 0.3) transparent transparent;
+  left: 0;
+  margin-left: 25px;
+}
+.rightArrow {
+  border-width: 30px 0 40px 30px;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.3);
+  right: 0;
+  margin-right: 30px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.imgWrapper {
+  animation: fadeIn 1.5s;
+}

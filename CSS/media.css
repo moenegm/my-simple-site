@@ -1,0 +1,1557 @@
+/*-------------------------------------------------LANDSCAPE CELLPHONE SCREENS-------------------------------------------------*/
+/*--(XS: iPhone4)--*/
+@media only screen and (max-width: 500px) and (max-height: 320px) {
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 35vh;
+  }
+  #about {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  .aboutWrapper {
+    height: 70vh;
+    grid-template-rows: auto auto repeat(5, 200px);
+  }
+  .social {
+    height: 8vh;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .company-info {
+    height: 90%;
+  }
+  .contactForm {
+    height: 90%;
+  }
+  .contactForm input {
+    height: 20px;
+  }
+  .contactForm textarea {
+    height: 40px;
+  }
+  .contactForm button {
+    height: 1rem;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .jobImg {
+    height: 160px;
+  }
+  .photoWork {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .photoContainer {
+    width: 60%;
+  }
+}
+/*--(S: iPhone5)--*/
+@media only screen and (min-width: 501px) and (max-width: 570px) and (max-height: 320px) {
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 35vh;
+  }
+  #about {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .aboutWrapper {
+    height: 70vh;
+    grid-gap: 3vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(3, 200px);
+  }
+  .aboutPortrait {
+    width: 25vh;
+    height: 25vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/3;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 1/2;
+  }
+  .aboutPhotographyBio {
+    grid-column: 2/3;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .social {
+    height: 8vh;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .company-info {
+    height: 90%;
+  }
+  .contactForm {
+    height: 90%;
+  }
+  .contactForm input {
+    height: 20px;
+  }
+  .contactForm textarea {
+    height: 40px;
+  }
+  .contactForm button {
+    height: 1rem;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .jobImg {
+    height: 160px;
+  }
+  .photoWork {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .photoContainer {
+    width: 50%;
+  }
+}
+/*--(M: iPhone6, LG, Nexus4, Galaxy)--*/
+@media only screen and (min-width: 571px) and (max-width: 730px) and (max-height: 399px) {
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 40vh;
+  }
+  #about {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .aboutWrapper {
+    height: 70vh;
+    grid-gap: 3vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(3, 200px);
+  }
+  .aboutPortrait {
+    width: 25vh;
+    height: 25vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/3;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 1/2;
+  }
+  .aboutPhotographyBio {
+    grid-column: 2/3;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .social {
+    height: 6vh;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .company-info {
+    height: 90%;
+  }
+  .contactForm {
+    height: 90%;
+  }
+  .contactForm input {
+    height: 25px;
+  }
+  .contactForm textarea {
+    height: 50px;
+  }
+  .contactForm button {
+    height: 1.5rem;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .jobImg {
+    height: 160px;
+  }
+  .photoWork {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .photoContainer {
+    width: 50%;
+  }
+}
+/*--(L: iPhone Plus, Nexus6, Pixel2)--*/
+@media only screen and (min-width: 731px) and (max-width: 799px) and (max-height: 499px) {
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 40vh;
+  }
+  #about {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .aboutWrapper {
+    height: 70vh;
+    grid-gap: 3vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(3, 200px);
+  }
+  .aboutPortrait {
+    width: 25vh;
+    height: 25vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/3;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 1/2;
+  }
+  .aboutPhotographyBio {
+    grid-column: 2/3;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .social {
+    height: 6vh;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 1.1em;
+  }
+  .company-info {
+    height: 90%;
+  }
+  .contactForm {
+    height: 90%;
+  }
+  .contactForm input {
+    height: 30px;
+  }
+  .contactForm textarea {
+    height: 70px;
+  }
+  .contactForm button {
+    height: 1.5rem;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .photoWork {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .photoContainer {
+    width: 45%;
+  }
+}
+/*--(XL: Pixel XL, iPhone X, onePlus)--*/
+@media only screen and (min-width: 800px) and (max-width: 825px) and (max-height: 500px) {
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 45vh;
+  }
+  #about {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .aboutWrapper {
+    height: 70vh;
+    grid-gap: 3vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(3, 200px);
+  }
+  .aboutPortrait {
+    width: 25vh;
+    height: 25vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/3;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 1/2;
+  }
+  .aboutPhotographyBio {
+    grid-column: 2/3;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .social {
+    height: 6vh;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 1.2em;
+  }
+  .company-info {
+    height: 90%;
+  }
+  .contactForm {
+    height: 90%;
+  }
+  .contactForm input {
+    height: 25px;
+  }
+  .contactForm textarea {
+    height: 65px;
+  }
+  .contactForm button {
+    height: 1.5rem;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .jobImg {
+    height: 250px;
+  }
+  .photoWork {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .photoContainer {
+    width: 35%;
+  }
+}
+/*-------------------------------------------------PORTRAIT CELLPHONE SCREENS-------------------------------------------------*/
+/*--(XS: iPhone4)--*/
+@media only screen and (max-width: 320px) and (max-height: 500px) and (max-height: 500px) {
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Ipad.jpg");
+    background-size: cover;
+  }
+  .contactContainer {
+    padding-top: 15vh;
+    min-height: 300px;
+    height: 80vh;
+  }
+  .contactForm input {
+    height: 30px;
+  }
+  .contactForm textarea {
+    height: 80px;
+  }
+  .contactForm button {
+    height: 1.5rem;
+  }
+}
+/*--(M: iPhone6, LG, Nexus4, Galaxy)--*/
+@media only screen and (min-width: 321px) and (max-width: 399px) and (max-height: 730px) {
+  .smallHeading {
+    padding-bottom: 55vh;
+  }
+  .company-info {
+    height: 25%;
+    font-size: 1.2em;
+  }
+  .contactForm {
+    height: 70%;
+    font-size: 1em;
+  }
+  .contactForm input {
+    height: 40px;
+  }
+  .contactForm textarea {
+    height: 150px;
+  }
+  .contactForm button {
+    height: 2rem;
+  }
+  .jobImg {
+    height: 250px;
+  }
+}
+/*--(L: iPhone Plus, Nexus6, Pixel)--*/
+@media only screen and (min-width: 400px) and (max-width: 500px) and (min-height: 731px) {
+  .smallHeading {
+    padding-bottom: 55vh;
+  }
+  .company-info {
+    height: 25%;
+    font-size: 1.2em;
+  }
+  .contactForm {
+    height: 70%;
+    font-size: 1em;
+  }
+  .contactForm input {
+    height: 40px;
+  }
+  .contactForm textarea {
+    height: 150px;
+  }
+  .contactForm button {
+    height: 2rem;
+  }
+  .jobImg {
+    height: 270px;
+  }
+}
+/*--(XL: Pixel XL, iPhone X, onePlus)--*/
+@media only screen and (min-width: 375px) and (max-width: 425px) and (min-height: 800px) {
+  .company-info {
+    height: 25%;
+    font-size: 1.2em;
+  }
+  .contactForm {
+    height: 70%;
+    font-size: 1em;
+  }
+  .contactForm input {
+    height: 40px;
+  }
+  .contactForm textarea {
+    height: 180px;
+  }
+  .contactForm button {
+    height: 2rem;
+  }
+  .jobImg {
+    height: 270px;
+  }
+}
+/*-----------------------------------------------PORTRAIT TABLET/iPad SCREENS -----------------------------------------------*/
+/*--(XS: Nexus7)--*/
+@media only screen and (max-width: 765px) and (min-height: 960px) and (max-height: 1023px) {
+  body {
+    font-size: 1em;
+  }
+  .smallHeading {
+    padding-bottom: 60vh;
+  }
+  .aboutWrapper {
+    grid-gap: 3vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(3, 300px);
+  }
+  .aboutPortrait {
+    width: 20vh;
+    height: 20vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/3;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 1/2;
+  }
+  .aboutPhotographyBio {
+    grid-column: 2/3;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .company-info {
+    height: 25%;
+    font-size: 1.3em;
+  }
+  .contactForm {
+    height: 70%;
+    font-size: 1em;
+  }
+  .contactForm input {
+    height: 50px;
+  }
+  .contactForm textarea {
+    height: 200px;
+  }
+  .contactForm button {
+    height: 2rem;
+    font-size: 1em;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .jobImg {
+    height: 180px;
+  }
+  .photoWork {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/*--(S: iPad & iPad Mini)--*/
+@media only screen and (max-width: 800px) and (min-height: 1024px) and (max-height: 1365px) {
+  body {
+    font-size: 1.3em;
+  }
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Ipad.jpg");
+    background-size: cover;
+  }
+  .show > .portrait {
+    width: 200px;
+    height: 200px;
+  }
+  .smallHeading {
+    padding-bottom: 50vh;
+  }
+  .aboutWrapper {
+    grid-gap: 3vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(3, 300px);
+  }
+  .aboutPortrait {
+    width: 20vh;
+    height: 20vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/3;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 1/2;
+  }
+  .aboutPhotographyBio {
+    grid-column: 2/3;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .company-info {
+    height: 25%;
+    font-size: 1.1em;
+  }
+  .contactForm {
+    height: 70%;
+    font-size: 0.8em;
+  }
+  .contactForm input {
+    height: 50px;
+  }
+  .contactForm textarea {
+    height: 230px;
+  }
+  .contactForm button {
+    height: 2rem;
+    font-size: 1em;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .jobImg {
+    height: 220px;
+  }
+  .photoWork {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/*--(M: iPad Pro)--*/
+@media only screen and (min-width: 801px) and (max-width: 1024px) and (min-height: 1366px) {
+  body {
+    font-size: 1.7em;
+  }
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Ipad.jpg");
+    background-size: cover;
+  }
+  .show > .portrait {
+    width: 250px;
+    height: 250px;
+  }
+  .smallHeading {
+    padding-bottom: 50vh;
+  }
+  .aboutWrapper {
+    grid-gap: 3vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(3, 400px);
+  }
+  .aboutPortrait {
+    width: 20vh;
+    height: 20vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/3;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 1/2;
+  }
+  .aboutPhotographyBio {
+    grid-column: 2/3;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .company-info {
+    height: 25%;
+    font-size: 1.2em;
+  }
+  .contactForm {
+    height: 70%;
+    font-size: 1em;
+  }
+  .contactForm input {
+    height: 70px;
+  }
+  .contactForm textarea {
+    height: 270px;
+  }
+  .contactForm button {
+    height: 3rem;
+    font-size: 1em;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .jobImg {
+    height: 300px;
+  }
+  .photoWork {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/*---------------------------------------------LANDSCAPE TABLET/COMPUTER SCREENS ---------------------------------------------*/
+/*--(XS: Nexus7)--*/
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  body {
+    font-size: 1.3em;
+  }
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+    background-size: cover;
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 40vh;
+  }
+  .aboutWrapper {
+    height: 70vh;
+    grid-gap: 3vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(3, 300px);
+  }
+  .aboutPortrait {
+    width: 30vh;
+    height: 30vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/3;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 1/2;
+  }
+  .aboutPhotographyBio {
+    grid-column: 2/3;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .social {
+    height: 6vh;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 1.2em;
+  }
+  .company-info {
+    height: 90%;
+    font-size: 0.9em;
+  }
+  .contactForm {
+    height: 90%;
+    font-size: 0.7em;
+  }
+  .contactForm input {
+    height: 40px;
+  }
+  .contactForm textarea {
+    height: 100px;
+  }
+  .contactForm button {
+    height: 2rem;
+    font-size: 0.9em;
+  }
+  #animation > h1 {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+  .animationWrapper {
+    grid-gap: 20px;
+    width: 70%;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  iframe {
+    height: 200px;
+  }
+  .discription {
+    font-size: 0.7em;
+    height: 200px;
+  }
+  #animationSocial {
+    padding: 20px;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .photoWork {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .photoContainer {
+    width: 60%;
+  }
+}
+/*--(S: iPad & iPad Mini, Wide screen laptops)--*/
+@media only screen and (min-width: 1024px) and (max-width: 1365px) and (max-height: 800px) {
+  body {
+    font-size: 1.5em;
+  }
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+    background-size: cover;
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 40vh;
+  }
+  .aboutWrapper {
+    grid-gap: 3vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(3, 300px);
+  }
+  .aboutPortrait {
+    width: 30vh;
+    height: 30vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/3;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 1/2;
+  }
+  .aboutPhotographyBio {
+    grid-column: 2/3;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .social {
+    height: 6vh;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 1.2em;
+  }
+  .company-info {
+    height: 90%;
+    font-size: 0.8em;
+  }
+  .contactForm {
+    height: 90%;
+    font-size: 0.7em;
+  }
+  .contactForm input {
+    height: 50px;
+  }
+  .contactForm textarea {
+    height: 150px;
+  }
+  .contactForm button {
+    height: 2rem;
+    font-size: 1em;
+  }
+  #animation > h1 {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+  .animationWrapper {
+    grid-gap: 20px;
+    width: 70%;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  iframe {
+    height: 200px;
+  }
+  .discription {
+    font-size: 0.7em;
+    height: 200px;
+  }
+  #animationSocial {
+    padding: 20px;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .jobImg {
+    height: 200px;
+  }
+  .jobButtons {
+    font-size: 0.8em;
+  }
+  .photoWork {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .photoContainer {
+    width: 75%;
+  }
+}
+/*--(M: small laptops)--*/
+@media only screen and (min-width: 1366px) and (max-width: 1400px) and (max-height: 800px) {
+  body {
+    font-size: 1.7em;
+  }
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+    background-size: cover;
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .show > .portrait {
+    width: 250px;
+    height: 250px;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 40vh;
+  }
+  .aboutWrapper {
+    grid-gap: 3vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto repeat(2, 300px);
+  }
+  .aboutPortrait {
+    width: 30vh;
+    height: 30vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/4;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 3/4;
+  }
+
+  .aboutPhotographyBio {
+    grid-column: 1/2;
+  }
+  .aboutVideoBio {
+    grid-column: 2/3;
+  }
+  .social {
+    height: 6vh;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 1.2em;
+  }
+  .company-info {
+    height: 90%;
+    font-size: 0.9em;
+  }
+  .contactForm {
+    height: 90%;
+    font-size: 0.7em;
+  }
+  .contactForm input {
+    height: 50px;
+  }
+  .contactForm textarea {
+    height: 150px;
+  }
+  .contactForm button {
+    height: 2rem;
+    font-size: 1em;
+  }
+  #animation > h1 {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  .animationWrapper {
+    grid-gap: 20px;
+    width: 70%;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  iframe {
+    height: 300px;
+  }
+  .discription {
+    height: 300px;
+  }
+  #animationSocial {
+    padding: 20px;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .jobImg {
+    height: 280px;
+  }
+  .jobButtons {
+    font-size: 0.8em;
+  }
+  .photoWork {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .photoContainer {
+    width: 60%;
+  }
+}
+/*--(ML: iPad Pro)--*/
+@media only screen and (min-width: 1366px) and (max-width: 1399px) and (min-height: 801px) {
+  body {
+    font-size: 1.7em;
+  }
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+    background-size: cover;
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 40vh;
+  }
+  .aboutWrapper {
+    grid-gap: 3vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto repeat(2, 300px);
+  }
+  .aboutPortrait {
+    width: 30vh;
+    height: 30vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/4;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 3/4;
+  }
+
+  .aboutPhotographyBio {
+    grid-column: 1/2;
+  }
+  .aboutVideoBio {
+    grid-column: 2/3;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 1.2em;
+  }
+  .company-info {
+    height: 90%;
+    font-size: 0.9em;
+  }
+  .contactForm {
+    height: 90%;
+    font-size: 0.8em;
+  }
+  .contactForm input {
+    height: 60px;
+  }
+  .contactForm textarea {
+    height: 230px;
+  }
+  .contactForm button {
+    height: 2.5rem;
+    font-size: 1em;
+  }
+  #animation > h1 {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  .animationWrapper {
+    grid-gap: 20px;
+    width: 70%;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  iframe {
+    height: 300px;
+  }
+  .discription {
+    height: 300px;
+  }
+  #animationSocial {
+    padding: 20px;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .jobImg {
+    height: 280px;
+  }
+  .jobButtons {
+    font-size: 0.8em;
+  }
+  .photoWork {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .photoContainer {
+    width: 80%;
+  }
+}
+/*--(L: Medium Laptops)--*/
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  body {
+    font-size: 1.7em;
+  }
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+    background-size: cover;
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 40vh;
+  }
+  .aboutWrapper {
+    grid-gap: 3vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto repeat(2, 400px);
+  }
+  .aboutPortrait {
+    width: 30vh;
+    height: 30vh;
+    grid-column: 1/2;
+  }
+  .aboutTextBio {
+    grid-column: 2/4;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 3/4;
+  }
+
+  .aboutPhotographyBio {
+    grid-column: 1/2;
+  }
+  .aboutVideoBio {
+    grid-column: 2/3;
+  }
+  .social {
+    height: 6vh;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 1.2em;
+  }
+  .company-info {
+    height: 90%;
+    font-size: 0.9em;
+  }
+  .contactForm {
+    height: 90%;
+    font-size: 0.8em;
+  }
+  .contactForm input {
+    height: 50px;
+  }
+  .contactForm textarea {
+    height: 200px;
+  }
+  .contactForm button {
+    height: 2.5rem;
+    font-size: 1em;
+  }
+  #animation > h1 {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  .animationWrapper {
+    grid-gap: 20px;
+    width: 70%;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  iframe {
+    height: 300px;
+  }
+  .discription {
+    height: 300px;
+  }
+  #animationSocial {
+    padding: 20px;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .jobImg {
+    height: 280px;
+  }
+  .jobButtons {
+    font-size: 0.8em;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .jobImg {
+    height: 280px;
+  }
+  .jobButtons {
+    font-size: 0.8em;
+  }
+  .photoWork {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .photoContainer {
+    width: 60%;
+  }
+}
+/*--(XL: Large Laptops)--*/
+@media only screen and (min-width: 1600px) {
+  body {
+    font-size: 1.7em;
+  }
+  #home {
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
+      url("/Images/Background.jpg");
+    background-size: cover;
+  }
+  .myPortrait {
+    transform: translate3d(0, 100%, 0);
+  }
+  .show > .myPortrait {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .show > .portrait {
+    width: 300px;
+    height: 300px;
+  }
+  .menuItems {
+    transform: translate3d(0, -100%, 0);
+  }
+  .show > .menuItems {
+    float: left;
+    width: 50%;
+    height: 100vh;
+  }
+  .smallHeading {
+    padding-bottom: 45vh;
+  }
+  .aboutWrapper {
+    grid-gap: 3vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto repeat(2, 450px);
+  }
+  .aboutPortrait {
+    width: 30vh;
+    height: 30vh;
+    grid-column: 1/3;
+  }
+  .aboutTextBio {
+    grid-column: 3/5;
+    overflow: scroll;
+  }
+  .aboutAnimationBio {
+    grid-column: 1/2;
+  }
+  .aboutDevBio {
+    grid-column: 2/3;
+  }
+  .aboutEducationBio {
+    grid-column: 3/4;
+  }
+
+  .aboutPhotographyBio {
+    grid-column: 4/5;
+  }
+  .aboutVideoBio {
+    grid-column: 1/2;
+  }
+  .contactContainer {
+    height: 75vh;
+    min-height: 75vh;
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 1.2em;
+  }
+  .company-info {
+    height: 90%;
+    font-size: 1.1em;
+  }
+  .contactForm {
+    height: 90%;
+    font-size: 0.8em;
+  }
+  .contactForm input {
+    height: 60px;
+  }
+  .contactForm textarea {
+    height: 270px;
+  }
+  .contactForm button {
+    height: 3rem;
+    font-size: 1.1em;
+  }
+  #animation > h1 {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  .animationWrapper {
+    grid-gap: 20px;
+    width: 60%;
+  }
+  #videography > h1 {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  .videographyWrapper {
+    grid-gap: 20px;
+    width: 60%;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  iframe {
+    height: 400px;
+  }
+  .discription {
+    height: 400px;
+    font-size: 1em;
+  }
+  #animationSocial {
+    padding: 20px;
+  }
+  #developer > h1 {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  .devWork {
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .jobImg {
+    height: 300px;
+  }
+  .jobButtons {
+    font-size: 0.8em;
+  }
+  .photoWork {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .photoContainer {
+    width: 60%;
+  }
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
