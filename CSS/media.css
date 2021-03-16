@@ -3,7 +3,7 @@
 @media only screen and (max-width: 500px) and (max-height: 320px) {
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
   }
   .myPortrait {
     transform: translate3d(0, 100%, 0);
@@ -75,7 +75,7 @@
 @media only screen and (min-width: 501px) and (max-width: 570px) and (max-height: 320px) {
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
   }
   .myPortrait {
     transform: translate3d(0, 100%, 0);
@@ -173,7 +173,7 @@
 @media only screen and (min-width: 571px) and (max-width: 730px) and (max-height: 399px) {
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
   }
   .myPortrait {
     transform: translate3d(0, 100%, 0);
@@ -271,7 +271,7 @@
 @media only screen and (min-width: 731px) and (max-width: 799px) and (max-height: 499px) {
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
   }
   .myPortrait {
     transform: translate3d(0, 100%, 0);
@@ -367,7 +367,7 @@
 @media only screen and (min-width: 800px) and (max-width: 825px) and (max-height: 500px) {
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
   }
   .myPortrait {
     transform: translate3d(0, 100%, 0);
@@ -467,7 +467,7 @@
 @media only screen and (max-width: 320px) and (max-height: 500px) and (max-height: 500px) {
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Ipad.jpg");
+      url("../Images/Ipad.jpg");
     background-size: cover;
   }
   .contactContainer {
@@ -634,7 +634,7 @@
   }
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Ipad.jpg");
+      url("../Images/Ipad.jpg");
     background-size: cover;
   }
   .show > .portrait {
@@ -709,7 +709,7 @@
   }
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Ipad.jpg");
+      url("../Images/Ipad.jpg");
     background-size: cover;
   }
   .show > .portrait {
@@ -785,7 +785,7 @@
   }
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
     background-size: cover;
   }
   .myPortrait {
@@ -906,7 +906,7 @@
   }
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
     background-size: cover;
   }
   .myPortrait {
@@ -1032,7 +1032,7 @@
   }
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
     background-size: cover;
   }
   .myPortrait {
@@ -1162,7 +1162,7 @@
   }
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
     background-size: cover;
   }
   .myPortrait {
@@ -1285,7 +1285,7 @@
   }
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
     background-size: cover;
   }
   .myPortrait {
@@ -1421,7 +1421,7 @@
   }
   #home {
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-      url("/Images/Background.jpg");
+      url("../Images/Background.jpg");
     background-size: cover;
   }
   .myPortrait {
