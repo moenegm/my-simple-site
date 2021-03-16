@@ -13,7 +13,7 @@
 .aboutPortrait {
   width: 20vh;
   height: 20vh;
-  background-image: url("/Images/Portrait.jpg");
+  background-image: url("../Images/Portrait.jpg");
   background-size: cover;
   border: 3px solid rgb(200, 150, 15);
   border-radius: 50%;
