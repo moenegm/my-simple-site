@@ -22,7 +22,7 @@ footer {
 /*---------HEADING & MAIN SCREEN STUFF-----------*/
 #home {
   background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)),
-    url("/Images/Iphonexbackground.jpg");
+    url("../Images/Iphonexbackground.jpg");
   background-size: cover;
   width: 100%;
   height: calc(100vh - 20vh);
@@ -94,7 +94,7 @@ footer {
 .show > .portrait {
   width: 150px;
   height: 150px;
-  background-image: url("/Images/Portrait.jpg");
+  background-image: url("../Images/Portrait.jpg");
   background-size: cover;
   border: 3px solid rgb(200, 150, 15);
   border-radius: 50%;
